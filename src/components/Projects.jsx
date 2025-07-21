@@ -1,5 +1,4 @@
-import React from "react";
-import "../styles/Projets.css";
+import "../styles/Projects.css";
 import data from "../data/Data";
 export default function Projects() {
   return (
@@ -13,7 +12,7 @@ export default function Projects() {
         <div className="proj_info">
         <span>{i.name}</span>
         <p>{i.description}</p>
-        <a href={i.link}>Sourse Code</a>
+        <a href={i.link}>Source Code</a>
         </div>
         </div>
         ))}

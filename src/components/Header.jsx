@@ -4,7 +4,7 @@ import { BiMailSend } from "react-icons/bi";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/Header.css";
 export default function Header() {
 const [showLinks,setShowLinks] = useState(false);

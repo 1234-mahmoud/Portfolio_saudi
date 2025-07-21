@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Header from "./components/Header";
-import Home from "./components/home";
-import Projects from "./components/projects";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
 function App() {
   return (
     <div className="App">
